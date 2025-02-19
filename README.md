@@ -57,3 +57,6 @@ Create a custom exploratory data analysis (EDA) project using GitHub, Git, Jupyt
     * Right click notebook tab to rename
     * `.ipynb` file type.
     * Make sure the correct kernel is set
+        * Click on `Select Kernel`
+        * Select `Python Environments`
+        * Choose the recommended `.venv` option
