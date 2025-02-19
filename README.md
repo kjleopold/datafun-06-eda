@@ -62,3 +62,8 @@ py -m pip install -r requirements.txt
     * Click on `Select Kernel`
     * Select `Python Environments`
     * Choose the recommended `.venv` option
+
+### 8. Select a Dataset, Provide a Link and a Description
+* [Data Source:](https://www.kaggle.com/)  
+* [Dataset:](https://www.kaggle.com/datasets/iskanderlou/grammy-awards-2025?select=grammys_2025.csv)  
+* Description: This dataset provides all the categories, nominees, and winners of the 2025 Grammy awards.  
