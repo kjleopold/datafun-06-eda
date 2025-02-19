@@ -4,54 +4,51 @@ Create a custom exploratory data analysis (EDA) project using GitHub, Git, Jupyt
 
 ## Install and Run the Project
 ### 1. Project Setup  
-- Create repo named datafun-04-eda in browser with a default README.md.
-
+- Create repo named datafun-04-eda in browser with a default README.md.  
 - Clone repo to local  
     ```
     git clone (paste repo URL)
     ```  
-
 - Create .gitignore file in root project folder  
     * Copy/pasted template from Module 4 example  
-
 - Add requirements.txt in root project folder  
-    * Copy/pasted template from Module 4 example  
+    * Copy/pasted template from Module 4 example and added pyarrow and jupyterlab  
 
-- Git add-commit-push  
+### 2. Git add-commit-push  
     ```
     git add .
-    git commit -m "Meaningful comment added"
+    git commit -m "Add a message with a clear and descriptive note about what you added or changed."
     git push
     ```
 
-- Create Virtual environment  
+### 3. Create Virtual Environment  
     ```
     py -m venv .venv
     ```
 
-### 2. Repeatable Workflow  
-- Pull latest changes from GitHub if necessary
-    ```
-    git pull
-    ```
-
-- Activate Virtual Environment
+### 4. Activate Virtual Environment
     ```
     .venv\Scripts\activate
     ``` 
 
-- Install Dependencies
+### 5. Install Dependencies  
+* jupyterlab
+* pandas
+* pyarrow
+* matplotlib
+* seaborn
+
     ```
     py -m pip install --upgrade pip setuptools wheel
     py -m pip install -r requirements.txt
     ```
 
-- Set VS Code Interpreter
+### 6. Set VS Code Interpreter
     * Open Command Palette: `Ctrl+Shift+P`
     * Search "Python: Select Interpreter"
     * Chose local .venv option
 
-- Create Jupyter Notebook
+### 7. Create Jupyter Notebook
     * Enter `jupyter lab` in terminal
     * Click Python 3 button under "Notebook" section
     * Right click notebook tab to rename
