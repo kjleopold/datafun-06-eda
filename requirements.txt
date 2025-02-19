@@ -102,6 +102,7 @@
 pip
 setuptools
 wheel
+requests
 
 # Easy logging for monitoring code execution
 loguru
