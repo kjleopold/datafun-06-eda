@@ -3,7 +3,7 @@
 Create a custom exploratory data analysis (EDA) project using GitHub, Git, Jupyter, pandas, Seaborn and other popular data analytics tools.  
 I have chosen to explore a 2024 video game sales dataset.
 
-## Install and Run the Project
+## Start a New Project
 ### 1. Project Setup  
 - Create repo named datafun-04-eda in browser with a default README.md.  
 - Clone repo to local  
@@ -23,18 +23,22 @@ git commit -m "Add a message with a clear and descriptive note about what you ad
 git push
 ```
 
-### 3. Create Virtual Environment  
+## Create Virtual Environment  
+1. Create `.venv`
 ```
 py -m venv .venv
 ```
-
-### 4. Activate Virtual Environment  
+2. Activate Virtual Environment  
 Always make sure to be in the virtual environment when installing packages and running scripts.  
 ```
 .venv\Scripts\activate
 ```
+3. Set VS Code Interpreter
+* Open Command Palette: `Ctrl+Shift+P`
+* Search "Python: Select Interpreter"
+* Chose local .venv option  
 
-### 5. Install Dependencies  
+## External Dependencies 
 Install necessary dependecies for the project.  
 
 Known dependencies for this project at the start:  
@@ -43,33 +47,27 @@ Known dependencies for this project at the start:
 * pyarrow
 * matplotlib
 * seaborn
-
 ```
 py -m pip install --upgrade pip setuptools wheel
 py -m pip install -r requirements.txt
 ```
 
-### 6. Set VS Code Interpreter
-* Open Command Palette: `Ctrl+Shift+P`
-* Search "Python: Select Interpreter"
-* Chose local .venv option
-
-### 7. Create Jupyter Notebook  
-* Enter `jupyter lab` in terminal
-* Click Python 3 button under "Notebook" section
-* Right click notebook tab to rename
-* `.ipynb` file type.
-* Make sure the correct kernel is set
+## Create Jupyter Notebook  
+1. Enter `jupyter lab` in terminal
+2. Click Python 3 button under "Notebook" section
+3. Right click notebook tab to rename
+4. `.ipynb` file type.
+5. Make sure the correct kernel is set
     * Click on `Select Kernel`
     * Select `Python Environments`
     * Choose the recommended `.venv` option
 
-### 8. Select a Dataset, Provide a Link and a Description
+## Select a Dataset, Provide a Link and a Description
 * Data Source: [https://www.kaggle.com/]  
 * Dataset: [https://www.kaggle.com/datasets/hosammhmdali/video-game-sales-2024?resource=download]  
 * Description: This dataset shows data for video game sales in 2024.  
 
-### 9. Exploratory Data Analysis
+## Exploratory Data Analysis
 * Data acquisition
 * Initial data inspection
 * Initial descriptive statistics
