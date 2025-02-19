@@ -56,7 +56,7 @@ py -m pip install -r requirements.txt
 ### 1. Enter `jupyter lab` in terminal
 ### 2. Click Python 3 button under "Notebook" section
 ### 3. Right click notebook tab to rename
-### 4. `.ipynb` file type.
+### 4. Make sure the file type is `.ipynb`.
 ### 5. Make sure the correct kernel is set
 * Click on `Select Kernel`
 * Select `Python Environments`
