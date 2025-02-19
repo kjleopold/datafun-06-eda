@@ -8,7 +8,7 @@ Create a custom exploratory data analysis (EDA) project using GitHub, Git, Jupyt
 - Clone repo to local  
 ```
 git clone (paste repo URL)
-```  
+```
 - Create .gitignore file in root project folder  
     * Copy/pasted template from Module 4 example  
 - Add requirements.txt in root project folder  
@@ -16,22 +16,22 @@ git clone (paste repo URL)
 
 ### 2. Git add-commit-push  
 Push changes from local to GitHub with clear commit message.  
-    ```
-    git add .
-    git commit -m "Add a message with a clear and descriptive note about what you added or changed."
-    git push
-    ```
+```
+git add .
+git commit -m "Add a message with a clear and descriptive note about what you added or changed."
+git push
+```
 
 ### 3. Create Virtual Environment  
-    ```
-    py -m venv .venv
-    ```
+```
+py -m venv .venv
+```
 
 ### 4. Activate Virtual Environment  
 Always make sure to be in the virtual environment when installing packages and running scripts.  
-    ```
-    .venv\Scripts\activate
-    ``` 
+```
+.venv\Scripts\activate
+```
 
 ### 5. Install Dependencies  
 Install necessary dependecies for the project.  
