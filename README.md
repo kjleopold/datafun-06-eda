@@ -48,17 +48,17 @@ py -m pip install --upgrade pip setuptools wheel
 py -m pip install -r requirements.txt
 ```
 
-### 6. Set VS Code Interpreter  
-    * Open Command Palette: `Ctrl+Shift+P`  
-    * Search "Python: Select Interpreter"  
-    * Chose local .venv option  
+### 6. Set VS Code Interpreter
+* Open Command Palette: `Ctrl+Shift+P`
+* Search "Python: Select Interpreter"
+* Chose local .venv option
 
 ### 7. Create Jupyter Notebook  
-    * Enter `jupyter lab` in terminal  
-    * Click Python 3 button under "Notebook" section  
-    * Right click notebook tab to rename  
-    * `.ipynb` file type.  
-    * Make sure the correct kernel is set  
-        * Click on `Select Kernel`  
-        * Select `Python Environments`  
-        * Choose the recommended `.venv` option  
+* Enter `jupyter lab` in terminal
+* Click Python 3 button under "Notebook" section
+* Right click notebook tab to rename
+* `.ipynb` file type.
+* Make sure the correct kernel is set
+    * Click on `Select Kernel`
+    * Select `Python Environments`
+    * Choose the recommended `.venv` option
