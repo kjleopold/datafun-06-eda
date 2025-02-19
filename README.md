@@ -1,6 +1,7 @@
 # datafun-06-eda
 ### Module 6 Project  
-Create a custom exploratory data analysis (EDA) project using GitHub, Git, Jupyter, pandas, Seaborn and other popular data analytics tools.
+Create a custom exploratory data analysis (EDA) project using GitHub, Git, Jupyter, pandas, Seaborn and other popular data analytics tools.  
+I have chosen to explore a 2024 video game sales dataset.
 
 ## Install and Run the Project
 ### 1. Project Setup  
@@ -65,5 +66,15 @@ py -m pip install -r requirements.txt
 
 ### 8. Select a Dataset, Provide a Link and a Description
 * Data Source: [https://www.kaggle.com/]  
-* Dataset: [https://www.kaggle.com/datasets/iskanderlou/grammy-awards-2025?select=grammys_2025.csv]  
-* Description: This dataset provides all the categories, nominees, and winners of the 2025 Grammy awards.  
+* Dataset: [https://www.kaggle.com/datasets/hosammhmdali/video-game-sales-2024?resource=download]  
+* Description: This dataset shows data for video game sales in 2024.  
+
+### 9. Exploratory Data Analysis
+* Data acquisition
+* Initial data inspection
+* Initial descriptive statistics
+* Initial data distribution for numerical columns
+* Initial data distribution for categorical columns
+* Initial data transformation and feature engineering
+* Initial visualizations
+* Initial storytelling and presentation
