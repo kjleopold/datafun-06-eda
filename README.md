@@ -24,22 +24,22 @@ git push
 ```
 
 ## Create Virtual Environment  
-1. Create `.venv`
+### 1. Create `.venv`
 ```
 py -m venv .venv
 ```
-2. Activate Virtual Environment  
+### 2. Activate Virtual Environment  
 Always make sure to be in the virtual environment when installing packages and running scripts.  
 ```
 .venv\Scripts\activate
 ```
-3. Set VS Code Interpreter
+### 3. Set VS Code Interpreter
 * Open Command Palette: `Ctrl+Shift+P`
 * Search "Python: Select Interpreter"
 * Chose local .venv option  
 
 ## External Dependencies 
-Install necessary dependecies for the project.  
+### Install necessary dependecies for the project using requirements.txt file.  
 
 Known dependencies for this project at the start:  
 * jupyterlab
@@ -53,14 +53,14 @@ py -m pip install -r requirements.txt
 ```
 
 ## Create Jupyter Notebook  
-1. Enter `jupyter lab` in terminal
-2. Click Python 3 button under "Notebook" section
-3. Right click notebook tab to rename
-4. `.ipynb` file type.
-5. Make sure the correct kernel is set
-    * Click on `Select Kernel`
-    * Select `Python Environments`
-    * Choose the recommended `.venv` option
+### 1. Enter `jupyter lab` in terminal
+### 2. Click Python 3 button under "Notebook" section
+### 3. Right click notebook tab to rename
+### 4. `.ipynb` file type.
+### 5. Make sure the correct kernel is set
+* Click on `Select Kernel`
+* Select `Python Environments`
+* Choose the recommended `.venv` option
 
 ## Select a Dataset, Provide a Link and a Description
 * Data Source: [https://www.kaggle.com/]  
