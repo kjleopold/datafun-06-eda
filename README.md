@@ -1,5 +1,5 @@
 # datafun-06-eda
-## Module 6 Project
+Module 6 Project
 Create a custom exploratory data analysis (EDA) project using GitHub, Git, Jupyter, pandas, Seaborn and other popular data analytics tools.
 
 ## Install and Run the Project
