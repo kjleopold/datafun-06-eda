@@ -4,7 +4,7 @@ Create a custom exploratory data analysis (EDA) project using GitHub, Git, Jupyt
 
 ## Install and Run the Project
 ### 1. Project Setup  
-- Create repo named datafun-04-eda  
+- Create repo named datafun-04-eda in browser with a default README.md.
 
 - Clone repo to local  
     ```
