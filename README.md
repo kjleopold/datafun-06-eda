@@ -64,8 +64,8 @@ py -m pip install -r requirements.txt
 
 ## Select a Dataset, Provide a Link and a Description
 * Data Source: [https://www.kaggle.com/]  
-* Dataset: [https://www.kaggle.com/datasets/hosammhmdali/video-game-sales-2024?resource=download]  
-* Description: This dataset shows data for video game sales in 2024.  
+* Dataset: [https://www.kaggle.com/datasets/willianoliveiragibin/video-game-sales-analyze]  
+* Description: This dataset shows data for video game sales for titles released through 2020.  
 
 ## Exploratory Data Analysis
 * Data acquisition
