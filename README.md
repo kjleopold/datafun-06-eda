@@ -53,11 +53,11 @@ py -m pip install -r requirements.txt
 ```
 
 ## Create Jupyter Notebook  
-### 1. Enter `jupyter lab` in terminal
-### 2. Click Python 3 button under "Notebook" section
-### 3. Right click notebook tab to rename
-### 4. Make sure the file type is `.ipynb`.
-### 5. Make sure the correct kernel is set
+1. Enter `jupyter lab` in terminal
+2. Click Python 3 button under "Notebook" section
+3. Right click notebook tab to rename
+4. Make sure the file type is `.ipynb`.
+5. Make sure the correct kernel is set
 * Click on `Select Kernel`
 * Select `Python Environments`
 * Choose the recommended `.venv` option
@@ -68,13 +68,13 @@ py -m pip install -r requirements.txt
 * Description: This dataset shows data for video game sales for titles released through 2020.  
 
 ## Exploratory Data Analysis
-* Purpose
-* Introduction
-* Load the data
+1. Purpose
+2. Introduction
+3. Load the data
 ```
 df = pd.read_csv('filename.csv)
 ```
-* Data inspection
+4. Data inspection
     - Convert Year column to integer to get rid of the decimal point
     - Display the DataFrame, shape, data type, and info
 ```
@@ -83,12 +83,12 @@ print("Data Shape:", df.shape)
 print("Data Types:\n", df.dtypes)
 df.nfo()
 ```
-* Descriptive statistics
+5. Descriptive statistics
 ```
 print(df.describe())
 print(df.nunique())
 ```
-* Data distribution for numerical columns
+6. Data distribution for numerical columns
 ```
 # Inspect histogram by numerical column
 df['Year'].hist(figsize=(8,5))
@@ -102,15 +102,15 @@ df.hist(figsize=(12, 8), bins=10, log=True)  # Log scale for better visualizatio
 plt.tight_layout()
 plt.show()
 ```
-* Data distribution for categorical columns
+7. Data distribution for categorical columns
     - Distribution of Game Genres
     - Max, Median and Min Distributions per Categorical Column
-* Data transformation and feature engineering
+8. Data transformation and feature engineering
     - Change column headings (platform, name, year, publisher)
     - Add average sales column
-* Additonal visualizations
+9. Additonal visualizations
     - Horizontal bar chart: Top 5 Consoles with the Highest Global Game Sales
     - Line chart: Global Top 10 Best-Selling Games by Region
     - Pie chart: Top 5 Best-Selling Games per Region
     - Line chart: Games Released by Top 5 Game Developers per Year
-* Conclusion
+10. Conclusion
