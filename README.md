@@ -68,11 +68,49 @@ py -m pip install -r requirements.txt
 * Description: This dataset shows data for video game sales for titles released through 2020.  
 
 ## Exploratory Data Analysis
-* Data acquisition
-* Initial data inspection
-* Initial descriptive statistics
-* Initial data distribution for numerical columns
-* Initial data distribution for categorical columns
-* Initial data transformation and feature engineering
-* Initial visualizations
-* Initial storytelling and presentation
+* Purpose
+* Introduction
+* Load the data
+```
+df = pd.read_csv('filename.csv)
+```
+* Data inspection
+    - Convert Year column to integer to get rid of the decimal point
+    - Display the DataFrame, shape, data type, and info
+```
+display(df.head(10))
+print("Data Shape:", df.shape)
+print("Data Types:\n", df.dtypes)
+df.nfo()
+```
+* Descriptive statistics
+```
+print(df.describe())
+print(df.nunique())
+```
+* Data distribution for numerical columns
+```
+# Inspect histogram by numerical column
+df['Year'].hist(figsize=(8,5))
+plt.xlabel("Year")
+plt.ylabel("Count")
+plt.title("Distribution of Games by Year Released")
+plt.show()
+
+# Plot histograms using a logarithmic scale for the x-axis
+df.hist(figsize=(12, 8), bins=10, log=True)  # Log scale for better visualization
+plt.tight_layout()
+plt.show()
+```
+* Data distribution for categorical columns
+    - Distribution of Game Genres
+    - Max, Median and Min Distributions per Categorical Column
+* Data transformation and feature engineering
+    - Change column headings (platform, name, year, publisher)
+    - Add average sales column
+* Additonal visualizations
+    - Horizontal bar chart: Top 5 Consoles with the Highest Global Game Sales
+    - Line chart: Global Top 10 Best-Selling Games by Region
+    - Pie chart: Top 5 Best-Selling Games per Region
+    - Line chart: Games Released by Top 5 Game Developers per Year
+* Conclusion
