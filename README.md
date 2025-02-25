@@ -75,8 +75,8 @@ py -m pip install -r requirements.txt
 df = pd.read_csv('filename.csv)
 ```
 ### 4. Data inspection
-    - Convert Year column to integer to get rid of the decimal point
-    - Display the DataFrame, shape, data type, and info
+* Convert Year column to integer to get rid of the decimal point
+* Display the DataFrame, shape, data type, and info
 ```
 display(df.head(10))
 print("Data Shape:", df.shape)
@@ -103,14 +103,14 @@ plt.tight_layout()
 plt.show()
 ```
 ### 7. Data distribution for categorical columns
-    - Distribution of Game Genres
-    - Max, Median and Min Distributions per Categorical Column
+* Distribution of Game Genres
+* Max, Median and Min Distributions per Categorical Column
 ### 8. Data transformation and feature engineering
-    - Change column headings (platform, name, year, publisher)
+* Change column headings (platform, name, year, publisher)
     - Add average sales column
 ### 9. Additonal visualizations
-    - Horizontal bar chart: Top 5 Consoles with the Highest Global Game Sales
-    - Line chart: Global Top 10 Best-Selling Games by Region
-    - Pie chart: Top 5 Best-Selling Games per Region
-    - Line chart: Games Released by Top 5 Game Developers per Year
+* Horizontal bar chart: Top 5 Consoles with the Highest Global Game Sales
+* Line chart: Global Top 10 Best-Selling Games by Region
+* Pie chart: Top 5 Best-Selling Games per Region
+* Line chart: Games Released by Top 5 Game Developers per Year
 ### 10. Conclusion
